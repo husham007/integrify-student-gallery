@@ -31,7 +31,6 @@ class Student {
 // Gallery Class
 
 class Gallery {
-
   constructor(students) {
       this. students = [];
     students.forEach(student => {
