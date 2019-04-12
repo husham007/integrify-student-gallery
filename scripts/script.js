@@ -31,9 +31,9 @@ class Student {
 // Gallery Class
 
 class Gallery {
-  
 
   constructor(students) {
+      this. students = [];
     students.forEach(student => {
       this.students.push(new Student(student));
     });
