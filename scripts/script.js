@@ -31,7 +31,7 @@ class Student {
 // Gallery Class
 
 class Gallery {
-  students = [];
+  
 
   constructor(students) {
     students.forEach(student => {
